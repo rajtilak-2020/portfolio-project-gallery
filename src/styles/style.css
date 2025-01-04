@@ -58,7 +58,7 @@
   .category-filter {
     display: flex;
     justify-content: center;
-    gap: var(--spacing-sm);
+    gap: 0.5rem;
     margin-bottom: var(--spacing-lg);
     flex-wrap: wrap;
   }
@@ -263,20 +263,11 @@
   }
   
   /* Optimize animations for reduced motion preference */
-  @media (prefers-reduced-motion: reduce) {
-    .project-card {
-      transition: opacity var(--transition-fast) ease-out;
-      transform: none !important;
+  @media (hover: hover) and (pointer: fine) {
+    .project-card:hover img {
+        transform: scale(1.05);
     }
-    
-    .project-card:hover {
-      transform: none !important;
-    }
-    
-    .project-card img {
-      transform: none !important;
-    }
-  }
+}
   /* Buttons */
 .project-button {
     display: inline-flex;
