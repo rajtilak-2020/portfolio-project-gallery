@@ -31,11 +31,4 @@ The Portfolio Project Gallery is a visually engaging platform designed to showca
 ## Contributing  
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.  
 
-## License  
-This project is licensed under the MIT License.  
-### Connect with Me  
-- GitHub: [@rajtilak-2020](https://github.com/rajtilak-2020)  
-- LinkedIn: [Your LinkedIn Profile](#)  
-- Portfolio: [Portfolio Website](#)
-
 ---
